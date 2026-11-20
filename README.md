@@ -14,19 +14,6 @@ All functions have doctests, run automatically with GitHub Actions.
 
 ## Usage
 ```
-$ python3 wardial.py
+$ python3 ip_range_web_scanner.py
 ```
 
-## Results
-6 of 1,024 addresses responded with HTTP 200:
-```
-175.45.176.68
-175.45.176.75
-175.45.176.76
-175.45.177.1
-175.45.177.10
-175.45.177.11
-```
-
-## Possible extensions
-Scanning is sequential (~85 min worst case). A parallel version using `concurrent.futures` would finish in seconds.
